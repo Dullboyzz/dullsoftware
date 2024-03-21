@@ -1,0 +1,73 @@
+Practical 6: Study and implementation of Data Flow Diagrams.
+
+.Solution: A data flow diagram (or DFD) is a graphical
+
+representation of the flow of data through an information system. It shows how information is input to and output from the system, the sources and destinations of that information, and where that information is stored.
+
+.Components
+
+DFD can represent Source, destination, storage and flow of data using the following set of components -
+
+Digram:-
+
+Entity
+
+Process
+
+Data store
+
+Data flow
+
+-Entities: Entities are source and destination of information data. Entities are represented by a rectangles with their respective names.
+
+-Process: Activities and action taken on the data are represented by Circle or Round-edged rectangles.
+
+-Data Storage: There are two variants of data storage - it can either be represented as a rectangle with absence of both smaller sides or as an open-sided rectangle with only one side missing.
+
+-Data Flow: Movement of data is shown by pointed arrows. Data movement is shown from the base of arrow as its source towards head of the arrow as destination.
+
+.Levels of DFD
+
+-Level 0: Highest abstraction level DFD is known as Level 0 DFD, which depicts the entire information system as one diagram concealing all the underlying details. Level 0 DFDs are also known as context level DFDs.
+
+-Level 1: The Level 0 DFD is broken down into more specific, Level 1 DFD. Level 1 DFD depicts basic modules in the system and flow of data among various modules. Level 1 DFD also mentions basic processes and sources of information.
+
+Digram:-
+
+Online Shopping System
+
+Order
+
+Delivery
+
+Customers
+
+-Level 2: At this level, DFD shows how data flows inside the modules mentioned in Level 1. Higher level DFDs can be transformed into more specific lower level DFDs with deeper level of understanding unless the desired level of specification is achieved.
+
+Digram:-
+
+Accounts
+
+Finance verification 
+
+Customer data
+
+Order Processing
+
+Stores
+
+Verify
+
+Issue item
+
+Process
+
+Order
+
+Sales
+
+Order
+
+Delivery
+
+Customers

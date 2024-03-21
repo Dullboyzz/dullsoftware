@@ -1,0 +1,39 @@
+Practical 7: Study and implementation of Collaboration Diagrams.
+
+.Solution:
+
+Collaboration diagram, also called a communication diagram or interaction diagram, is an illustration of the relationships and interactions among software objects in the Unified Modeling Language (UML).
+
+.Components
+
+- Object: The interaction between objects takes place in a system. An object is depicted by a rectangle with the name of the object, preceded by a colon and underline.
+
+-Relation/Association: Association among objects is linked by connecting them. The cardinality can be depicted by placing qualifiers on either ends.
+
+-Messages: An arrow that commencing from one object to the destination object. This depicts the interaction between objects. The sequence or order of the interaction is depicted by the number
+
+Digram:-
+
+MemberRecord
+
+3: Valid Member
+
+5: Book Can be Issue
+
+4: Check No of Book Issue
+
+Librarian
+
+7: add member and add book
+
+8: Update Book Status
+
+2: Book Available
+
+1: Check Av of books
+
+6: create
+
+Transaction
+
+Book
