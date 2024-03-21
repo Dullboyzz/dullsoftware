@@ -29,36 +29,6 @@
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
 			"name": "StateMachine1",
-			"ownedElements": [
-				{
-					"_type": "UMLStatechartDiagram",
-					"_id": "AAAAAAGOUGs8daV673k=",
-					"_parent": {
-						"$ref": "AAAAAAGOUGs8dKV4/B8="
-					},
-					"name": "StatechartDiagram1",
-					"ownedElements": [
-						{
-							"_type": "FCFlowchart",
-							"_id": "AAAAAAGOUGuahKV/NYM=",
-							"_parent": {
-								"$ref": "AAAAAAGOUGs8daV673k="
-							},
-							"name": "Flowchart1",
-							"ownedElements": [
-								{
-									"_type": "FCFlowchartDiagram",
-									"_id": "AAAAAAGOUGuahKWAU5o=",
-									"_parent": {
-										"$ref": "AAAAAAGOUGuahKV/NYM="
-									},
-									"name": "FlowchartDiagram1"
-								}
-							]
-						}
-					]
-				}
-			],
 			"regions": [
 				{
 					"_type": "UMLRegion",
